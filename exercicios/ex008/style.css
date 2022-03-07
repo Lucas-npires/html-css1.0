@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*Regra @charset caso haja problemas de acentuação */
+
+body {
+    background-image: radial-gradient(circle, yellow, red, green);
+    color: black;
+    font-size: 12pt;
+    font-family: Arial, Arial, Helvetica, sans-serif
+}
+
+h1{
+    color: brown;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}

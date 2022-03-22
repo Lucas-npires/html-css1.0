@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(238, 219, 194);
 }
 
 header {
-    background-color: green;
+    background-image: linear-gradient(to bottom, #03A63C, #027333, #025939);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     text-align: center;
@@ -36,9 +36,10 @@ header > p {
 }
 
 nav {
-    background-color: green;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0, 192);
+    text-align: left;
+    margin: auto;
 }
 
 main {

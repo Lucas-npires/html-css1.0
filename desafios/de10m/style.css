@@ -87,6 +87,15 @@ main h3 {
     background-image: linear-gradient(to right,#92f1b3, transparent);
 }
 
+main h4 {
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-indent: 8px;
+    background-image: linear-gradient(to right, #92f1b3, transparent);
+}
+
 main p {
     margin: 15px 0px;
     text-align: justify;
@@ -104,13 +113,13 @@ main a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(0, 63, 0);
-    background-color: #92f1b3;
+    background-color: #40ee5d;
     padding: 2px 6px;
 }
 
 main a:hover {
     text-decoration: underline;
-    color: rgb(0, 151, 25);
+    color: rgb(0, 99, 21);
 }
 
 main img {

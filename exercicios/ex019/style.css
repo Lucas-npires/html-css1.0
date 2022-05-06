@@ -1,0 +1,46 @@
+body { 
+    background: #6cb3a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.main::before {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 0px;
+    background: #d25b70;
+}
+.carre1 {
+    height: 20px;
+    width: 200px;
+    background: #6cb3a9;
+    position: absolute;
+}
+.carre {
+    height: 20px;
+    width: 180px;
+    background: #781728;
+    position: absolute;
+}
+.center {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: #f6df96;
+    border-radius: 50%;
+    border: solid 10px #781728;
+}
